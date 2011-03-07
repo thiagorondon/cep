@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #463E41;
+    font-family: serif;
+}
+
+#title {
+    height: 60px;
+    width: 750px;
+    margin: 10px;
+    -moz-border-radius: 15px;
+    -moz-box-shadow: #000 0px 2px 2px 0px;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: #000 0px 2px 2px 0px;
+    background: #000;
+}
+#title h1 {
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+#titlealign {
+    width: 60%;
+}
+#datealign {
+    height: 50%;
+}
+
+#title h2 {
+    font-size: 1em;
+    text-align: right;
+}
+#content {
+    padding: 0;
+    border: 0;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#maincontainer {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    width: 750px;
+}
+
+#main {
+    padding: 10px;
+    -moz-border-radius: 10px;
+    -moz-box-shadow: #000 0px 2px 2px 0px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: #000 0px 2px 2px 0px;
+    background: #FFF;
+}
+
+#main ul {
+    list-style: none;
+    padding-left: 1em;
+    text-indent: -1em;
+    margin: 0 0 1em 10%;
+}
+
+#main li:before {
+   content: "\00BB \0020";
+
+}
+
+#main h1,h2 {
+    margin-top: 8px;
+    padding: 4px;
+    padding-top: 10px;
+    border-bottom: 1px dotted;
+    clear: left;
+}
+
+#main h3 {
+    margin-top: 8px;
+    padding: 4px;
+    padding-top: 10px;
+    clear: left;
+    margin: 0 0 1em 5%;
+}
+
+
+#main h4 {
+    text-align: right;
+    font-size: 0.8em;
+}
+
+#main p,table {
+    line-height: 1.2em;
+    margin-top: 10px;
+    margin: 0 0 1em 10%;
+}
+
+#main img {
+    float: left;
+    margin-bottom: 10px;
+}
+#panelcontainer {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    height: 100%;
+    width: 250px;
+}
+#leftpanel {
+    padding: 10px;
+    height: 400px;
+    background: #FC0;
+    -moz-border-radius: 15px;
+    -moz-box-shadow: #000 0px 2px 2px 0px;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: #000 0px 3px 3px 0px;
+}
+#leftpanel li {
+    list-style-type: none;
+}
+
+#twitterbox {
+    margin-top: 10px;
+}
+#subscriptions {
+    margin-top: 30px;
+    float: right;
+    clear: right;
+}
+#powered {
+    display: inline-block;
+    padding: 5px;
+    float: left;
+}
+#copy {
+    display: inline-block;
+    padding: 5px;
+    text-align: right;
+    float: right;
+    clear: right;
+    font-size: .8em;
+}
+#copy a {
+    color: #000;
+    text-decoration: none;
+}
+#copy a:visited {
+    color: #000;
+    text-decoration: none;
+}
+#copy img {
+    vertical-align: middle;
+}

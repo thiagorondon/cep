@@ -1,0 +1,33 @@
+
+<h2>CEP em formatos abertos</h2>
+
+<p>
+O objetivo deste projeto é prover dados sobre CEPs de forma aberta e sem restrições tecnologicas, nosso objetivo é incentivar a empresa dos Correios a efetuar este trabalho.
+</p>
+
+<h2>Web</h2>
+
+<p>
+Para efetuar uma pesquisa em nosso banco de CEPs, basta digitar abaixo o código.
+</p>
+
+<form name="api" action="">
+
+<Table><tr><td width="100">CEP:
+</td><td>
+<input type="text" name="cep" id="cep" size="9" >
+</td></tr><tr><td colspan="2">
+<input type="submit" class="button" id="button" value=" Buscar ">
+</td></tr></table>
+
+</form>
+
+<table><tr><td>
+<div id="cep_view"></div>
+</td></tr></table>
+
+<h2>Rawdata</h2>
+
+<p>Para baixar todos os CEPs em um arquivo de formato aberto.</p>
+
+
