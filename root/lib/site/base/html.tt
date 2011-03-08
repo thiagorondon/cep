@@ -5,10 +5,13 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="author" content="Sao Paulo Perl Mongers" />
 	<meta name="description" content="OpenData-BR" />
-	<meta name="keywords" content="opendata, transparencia, governo, dados aberto" />
+	<meta name="keywords" content="opendata, transparencia, governo, dados aberto, css" />
 	<script src="http://code.jquery.com/jquery-1.5.1.min.js" /></script>
-	<script src="/static/js/cep.js" /></script>
-
+	<script type="text/javascript" src="/js"></script>
+	
+	<link href="/static/css/shCore.css" rel="stylesheet" type="text/css" />
+	<link href="/static/css/showLoading.css" rel="stylesheet" media="screen" /> 
+	<link href="/static/css/sh/shThemeDefault.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/static/css/opendatabr.css" type="text/css" /> 
 	<title>CEP em formatos em abertos</title>
  </head>

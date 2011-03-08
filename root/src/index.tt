@@ -2,32 +2,79 @@
 <h2>CEP em formatos abertos</h2>
 
 <p>
-O objetivo deste projeto é prover dados sobre CEPs de forma aberta e sem restrições tecnologicas, nosso objetivo é incentivar a empresa dos Correios a efetuar este trabalho.
+O objetivo deste projeto Ã© prover dados sobre CEPs de forma aberta e sem restriÃ§Ãµes tecnologicas, nosso objetivo Ã© incentivar a empresa dos Correios a efetuar este trabalho, e para isto todo o cÃ³digo fonte deste projeto Ã© livre e esta disponÃ­vel em <A href="https://github.com/maluco/cep/">https://github.com/maluco/cep/</a>.
+</p>
+
+<p>
+Este projeto Ã© mantido pelo grupo de desenvolvedores <A href="http://www.opendatabr.org/">OpenData-BR</a>.
 </p>
 
 <h2>Web</h2>
 
 <p>
-Para efetuar uma pesquisa em nosso banco de CEPs, basta digitar abaixo o código.
+Para efetuar uma pesquisa em nosso banco de CEPs, basta digitar abaixo o cÃ³digo.
 </p>
+
+<div id="activity_pane">
 
 <form name="api" action="">
 
-<Table><tr><td width="100">CEP:
-</td><td>
-<input type="text" name="cep" id="cep" size="9" >
-</td></tr><tr><td colspan="2">
-<input type="submit" class="button" id="button" value=" Buscar ">
-</td></tr></table>
+<fieldset>
+<legend>Buscar endereÃ§o por CEP</legend>
 
+<p><labelfor="cep">CEP</label>
+<input type="text" name="cep" id="cep" size="9" ></p>
+
+<p class="submit"><input type="submit" class="button" id="button" value=" Buscar "></p>
+
+<div id="cep_view"></div>
+
+</fieldset>
 </form>
 
-<table><tr><td>
-<div id="cep_view"></div>
-</td></tr></table>
+</div>
+
+<h2>API</h2>
+
+<p>Esta API foi desenvolvida e disponibilizada para facilitar a implementaÃ§Ã£o e o teste dos dados do banco de dados, basicamente para vocÃª efetuar uma consulta atravÃ©s deste serviÃ§o basta acessar a seguinte URL:</p>
+
+<div class="url" id="url">
+<li>http://cep.opendatabr.org/api/<b>CEP</b></li>
+</div>
+
+<p>Por exemplo, para consultar o CEP <i>04001001</i>, vocÃª pode efetuar uma consulta utilizando:</p>
+
+<div id="codesh" class="codesh">
+<li>curl -L localhost:3000/api/04001001</li>
+</div>
+
+<p>O retorno Ã© uma estrutura de dados em JSON, veja um exemplo abaixo:</p>
+
+<pre class="brush: plain">
+
+	{ "cep": 
+		{
+		"cidade" : "SÃ£o Paulo",
+		"bairro" : "ParaÃ­so",
+		"logradouro_s_acento" : "Manoel da Nobrega",
+		"uf" : "SP",
+		"complemento" : "- de 0302 a 0520 - lado par",
+		"tipo" : "Rua",
+		"logradouro" : "Manoel da NÃ³brega",
+		"cep" : "04001001"
+		}
+	}
+
+</pre>
+
+<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
 
 <h2>Rawdata</h2>
 
 <p>Para baixar todos os CEPs em um arquivo de formato aberto.</p>
 
-
+<ul>
+<li><a href="/static/rawdata/rawdata-08-03-2010-cep.csv.gz">rawdata-08-03-2010-cep.csv.gz</a></li>
+</ul>

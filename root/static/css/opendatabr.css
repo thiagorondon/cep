@@ -113,17 +113,40 @@ body {
     height: 100%;
     width: 250px;
 }
-#leftpanel {
+
+#url {
     padding: 10px;
-    height: 400px;
-    background: #FC0;
+    background: #66FF66;
+    margin: 0 0 1em 5%;
+    width: 400px;
     -moz-border-radius: 15px;
     -moz-box-shadow: #000 0px 2px 2px 0px;
     -webkit-border-radius: 15px;
     -webkit-box-shadow: #000 0px 3px 3px 0px;
 }
-#leftpanel li {
+
+#url li {
     list-style-type: none;
+}
+
+#codesh {
+    font-family: "Courier New";
+    padding: 10px;
+    background: #BBB;
+    margin: 0 0 1em 5%;
+    width: 400px;
+    -moz-border-radius: 15px;
+    -moz-box-shadow: #000 0px 2px 2px 0px;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: #000 0px 3px 3px 0px;
+}
+
+#codesh li {
+    list-style-type: none;
+}
+
+#codesh li:before {
+   content: "$ ";
 }
 
 #twitterbox {
@@ -158,3 +181,44 @@ body {
 #copy img {
     vertical-align: middle;
 }
+
+fieldset {
+	border: 1px solid #000;
+	width: 400px;
+	margin: 0 0 1em 5%;
+}
+
+#cep_view {
+	padding: 5px 12px;
+}
+
+legend {
+	color: #000;
+	background: #66FF66;
+	border: 1px solid #000;
+	padding: 2px 6px
+} 
+
+label {
+	width: 4em;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block
+}
+
+.submit input {
+	margin-left: 4.5em;
+	color: #000;
+	background: #66FF66;
+	border: 2px outset #d7b9c9
+} 
+
+input {
+	color: #000;
+	background: #BBB;
+	border: 1px solid #000
+}
+
+
+

@@ -28,6 +28,7 @@ The root page (/)
 
 sub base : Chained('/') : PathPart('') : CaptureArgs(0) {}
 
+sub js : Chained('/') : Args(0) {} 
 
 sub index :Path :Args(0) {
     my ( $self, $c ) = @_;

@@ -1,0 +1,7 @@
+[% META jstt=1 %]
+[% INCLUDE "js/jquery.min.js" %]
+[% INCLUDE "js/jquery.showLoading.min.js" %]
+[% INCLUDE "js/jquery.maskedinput-1.2.2.min.js" %]
+[% INCLUDE "js/cep.js" %]
+[% INCLUDE "js/sh/shCore.js" %]
+[% INCLUDE "js/sh/shBrushPlain.js" %]
