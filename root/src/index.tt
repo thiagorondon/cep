@@ -1,6 +1,12 @@
 
 <h2>CEP em formatos abertos</h2>
 
+<br/>
+<center>
+<img src="/static/images/banner_cep.png">
+</center>
+<br/>
+
 <p>
 O objetivo deste projeto Ã© prover dados sobre CEPs de forma aberta e sem restriÃ§Ãµes tecnologicas, nosso objetivo Ã© incentivar a empresa dos Correios a efetuar este trabalho, e para isto todo o cÃ³digo fonte deste projeto Ã© livre e esta disponÃ­vel em <A href="https://github.com/maluco/cep/">https://github.com/maluco/cep/</a>.
 </p>
